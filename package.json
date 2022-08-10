@@ -2,7 +2,7 @@
   "name": "world-ranks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "world-ranks/",
+  "homepage": "./",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

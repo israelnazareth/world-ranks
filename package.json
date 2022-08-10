@@ -2,7 +2,10 @@
   "name": "world-ranks",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://israelnazareth.github.io/world-ranks",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -17,6 +20,7 @@
   },
   "devDependencies": {
     "eslint": "8.21.0",
-    "eslint-config-next": "12.2.4"
+    "eslint-config-next": "12.2.4",
+    "gh-pages": "^4.0.0"
   }
 }

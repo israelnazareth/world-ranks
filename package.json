@@ -2,7 +2,7 @@
   "name": "world-ranks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://israelnazareth.github.io/world-ranks",
+  "homepage": "world-ranks/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
